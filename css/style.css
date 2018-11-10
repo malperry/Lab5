@@ -1,0 +1,162 @@
+@charset "UTF-8";
+body {
+    background-color: #858585;
+    background-image: url(file:///C|/Users/mperry/OneDrive%20-%20Institute%20of%20Technology%20Blanchardstown/WebAndSocialMedia/Lab5/Assets/Assets/bkgdContact.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: actor;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    height: 100%;
+}
+nav {
+	background-color: #BCBCBC;
+}
+.navList {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+}
+.navListitem {
+	/*float: left;*/
+}
+.navListitem a {
+	display: block;
+	padding-top: 14px;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-bottom: 16px;
+	color: #575757;
+}
+.navListitem a:hover {
+	color: #000000;
+	background-color: teal;
+}
+.asideLeft  {
+	width: 28%;
+	float: left;
+	margin-right: 5%;
+	margin-left: 1%;
+	margin-top: 30px;
+}
+h1 {
+	font-family: alfa-slab-one;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2.5em;
+	text-align: center;
+	line-height: 1em;
+	color: #FFFFFF;
+	text-shadow: 6px 6px 15px #000000;
+}
+h2 {
+	font-family: alfa-slab-one;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5em;
+	text-align: center;
+}
+footer {
+	font-size: small;
+	text-align: center;
+	clear: both;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 80px;
+	width: 100%;
+	color: #020202;
+	padding-top: 58px;
+	padding-right: 16px;
+	padding-left: 16px;
+	padding-bottom: 0.01em;
+	font-family: Verdana,sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.01) 0%,rgba(255,255,255,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.01) 0%,rgba(255,255,255,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.01) 0%,rgba(255,255,255,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,0.01) 0%,rgba(255,255,255,1.00) 100%);
+}
+.sectionRight {
+	width: 55%;
+	float: right;
+	margin-right: 5%;
+	margin-left: 1%;
+	margin-top: 30px;
+	padding-right: 2.5%;
+	padding-left: 2.5%;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 18.64%,rgba(249,247,247,0.16) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 18.64%,rgba(249,247,247,0.16) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 18.64%,rgba(249,247,247,0.16) 100%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 18.64%,rgba(249,247,247,0.16) 100%);
+	border-top-right-radius: 25px;
+	margin-bottom: 100px;
+}
+Header  {
+	text-align: center;
+	margin-top: 70px;
+}
+.navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light .navbar-brand {
+	font-family: alfa-slab-one;
+	font-style: normal;
+	font-weight: 400;
+	float: left;
+}
+.carousel-inner .carousel-item .d-block.mx-auto {
+    width: 100%;
+}
+.formStyle {
+    width: 100%;
+}
+
+
+
+@media (max-width: 575px){
+.asideLeft {
+	width: 90%;
+	float: none;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 30px;
+}
+.sectionRight {
+	width: 90%;
+	float: none;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 30px;
+	
+}
+body {
+	background-color:teal;
+	background-image: url();
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: actor;
+	font-style: normal;
+	font-weight: 400;
+	margin: 0;
+	height: 100%;
+}
+h1 {
+	font-family: alfa-slab-one;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2em;
+	text-align: center;
+	line-height: 1em;
+	margin-bottom: 100px;
+}
+Header {
+	margin-top: 30px;
+}
+p {
+	font-size: large;
+}
+
+}
